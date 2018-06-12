@@ -1,6 +1,7 @@
 /* >>>> 10/17 */
 
-p {
+
+/* p {
     font-family: Arial;
 }
 
@@ -18,5 +19,36 @@ h1 {
 
 #article-title {
     font-family: cursive;
+    text-transform: capitalize;
+} */
+
+
+/* >>>> 11/17 */
+
+p {
+    font-family: Arial;
+}
+
+h1 {
+    color: maroon;
+}
+
+.title {
+    color: teal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.publish-time {
+    color: gray;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.capitalize {
     text-transform: capitalize;
 }
