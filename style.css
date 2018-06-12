@@ -133,7 +133,8 @@ h2.destination {
 
 /* >>>> 14/17 */
 
-p {
+
+/* p {
     font-family: Arial;
 }
 
@@ -167,4 +168,47 @@ h2.destination {
 
 .capitalize {
     text-transform: capitalize;
+} */
+
+
+/* >>>> 15/17 */
+
+p {
+    font-family: Arial;
+}
+
+h1 {
+    color: maroon;
+}
+
+h5 {
+    color: rebeccapurple !important;
+}
+
+h2.destination {
+    font-family: cursive;
+}
+
+.title {
+    color: teal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.publish-time {
+    color: gray;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.description h5 {
+    color: teal;
 }
