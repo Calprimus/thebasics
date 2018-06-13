@@ -1,295 +1,78 @@
-/* >>>> 10/17 */
+/* >>>> 1/10 */
 
-
-/* p {
-    font-family: Arial;
+body {
+    /* Old browsers */
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color: maroon;
+    color: #FFF;
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
 }
 
-.title {
-    color: teal;
+h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
-#article-title {
-    font-family: cursive;
-    text-transform: capitalize;
-} */
-
-
-/* >>>> 11/17 */
-
-
-/* p {
-    font-family: Arial;
-}
-
-h1 {
-    color: maroon;
-}
-
-.title {
-    color: teal;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.publish-time {
-    color: gray;
-}
-
-.cursive {
-    font-family: cursive;
-}
-
-.capitalize {
-    text-transform: capitalize;
-} */
-
-
-/* >>>> 12/17 */
-
-
-/* p {
-    font-family: Arial;
-}
-
-h1 {
-    color: maroon;
-}
-
-h2.destination {
-    font-family: cursive;
-}
-
-.title {
-    color: teal;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.publish-time {
-    color: gray;
-}
-
-.cursive {
-    font-family: cursive;
-}
-
-.capitalize {
-    text-transform: capitalize;
-} */
-
-
-/* >>>> 13/17 */
-
-
-/* p {
-    font-family: Arial;
-}
-
-h1 {
-    color: maroon;
-}
-
-h2.destination {
-    font-family: cursive;
-}
-
-.title {
-    color: teal;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.publish-time {
-    color: gray;
-}
-
-.cursive {
-    font-family: cursive;
-}
-
-.capitalize {
-    text-transform: capitalize;
-}
-
-.description h5 {
-    color: teal;
-} */
-
-
-/* >>>> 14/17 */
-
-
-/* p {
-    font-family: Arial;
-}
-
-h1 {
-    color: maroon;
-}
-
-h5 {
-    color: rebeccapurple;
-}
-
-h2.destination {
-    font-family: cursive;
-}
-
-.title {
-    color: teal;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.publish-time {
-    color: gray;
-}
-
-.cursive {
-    font-family: cursive;
-}
-
-.capitalize {
-    text-transform: capitalize;
-} */
-
-
-/* >>>> 15/17 */
-
-
-/* p {
-    font-family: Arial;
-}
-
-h1 {
-    color: maroon;
-}
-
-h5 {
-    color: rebeccapurple !important;
-}
-
-h2.destination {
-    font-family: cursive;
-}
-
-.title {
-    color: teal;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.publish-time {
-    color: gray;
-}
-
-.cursive {
-    font-family: cursive;
-}
-
-.capitalize {
-    text-transform: capitalize;
-}
-
-.description h5 {
-    color: teal;
-} */
-
-
-/* >>>> 16/17 */
-
-
-/* p {
-    font-family: Arial;
-}
-
-h1 {
-    color: maroon;
-}
-
-h5 {
-    color: rebeccapurple !important;
-}
-
-h5,
 p {
-    font-family: Georgia;
+    color: AliceBlue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
 }
 
-h2.destination {
-    font-family: cursive;
-}
-
-.title {
-    color: teal;
-}
-
-.uppercase {
+.byline {
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
     text-transform: uppercase;
 }
 
-.publish-time {
-    color: gray;
+.caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
 }
 
-.cursive {
-    font-family: cursive;
+.content {
+    padding: 40px;
 }
 
-.capitalize {
-    text-transform: capitalize;
+.image {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
 }
 
-.description h5 {
-    color: teal;
-} */
-
-
-/*  >>>> 17/17 */
-
-
-/* CSS SETUP AND SELECTORS
-Review CSS Selectors
-
-Throughout this lesson, you learned how to select HTML elements with CSS and apply styles to them. Let's review what you learned:
-
-1 - CSS can change the look of HTML elements. 
-    In order to do this, CSS must select HTML elements, then apply styles to them.
-
-2 - CSS can select HTML elements by tag, class, or ID.
-
-3 - Multiple CSS classes can be applied to one HTML element.
-
-4 - Classes can be reusable, while IDs can only be used once.
-
-5 - IDs are more specific than classes, and classes are more specific than tags. 
-    That means IDs will override any styles from a class, and classes will override any styles from a tag selector.
-
-6 - Multiple selectors can be chained together to select an element. 
-    This raises the specificity, but can be necessary.
-
-7 - Nested elements can be selected by separating selectors with a space.
-
-8 - The !important flag will override any style, 
-    however it should almost never be used, as it is extremely difficult to override.
-
-9 - Multiple unrelated selectors can receive the same styles by separating the selector names with commas. */
+.writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 50px;
+}
