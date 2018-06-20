@@ -580,7 +580,8 @@ a {
 
 /* >>>> 5/8 */
 
-body {
+
+/* body {
     padding: 0;
     margin: 0;
     background: #F7F7F7;
@@ -628,23 +629,23 @@ body {
 }
 
 .green {
-    background-color: DarkSeaGreen;
+    background-color: #9EB599;
 }
 
 .light {
-    background-color: Sienna;
+    background-color: #683C2C;
 }
 
 .city {
-    background-color: SaddleBrown;
+    background-color: #4C352D;
 }
 
 .vienna {
-    background-color: Brown;
+    background-color: #352926;
 }
 
 .italian {
-    background-color: Black;
+    background-color: #141212;
 }
 
 h1 {
@@ -720,4 +721,7 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-}
+} */
+
+
+/* >>>> 6/8 */
