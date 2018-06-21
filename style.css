@@ -1,925 +1,166 @@
-/* body {
-    padding: 0;
-    margin: 0;
-    background: #F7F7F7;
-    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-}
+/* >>>> 1/19 */
 
-.header {
-    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
-    height: 400px;
-    background-position: center center;
-}
 
-.roasting {
-    margin: 40px auto;
-    padding: 20px 30px 40px 30px;
-    background-color: #FFFFFFFF;
-    overflow: auto;
-    width: 75%;
-    border-radius: 4px;
-    align-self: center;
-}
+/* Universal Styles */
 
-.roasting p {
-    color: #938E89;
-    text-align: center;
-    line-height: 24px;
-    font-family: 'Raleway', sans-serif;
+html {
     font-size: 16px;
-    font-weight: 400;
+    font-family: "Arial", sans-serif;
 }
-
-.spectrum div {
-    font: inherit;
-    padding: 0 20px;
-    color: #FFFFFF;
-    overflow: auto;
-    opacity: 0.9;
-}
-
-.spectrum p {
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.green {
-    background-color: DarkSeaGreen;
-}
-
-.light {
-    background-color: Sienna;
-}
-
-.city {
-    background-color: SaddleBrown;
-}
-
-.vienna {
-    background-color: Brown;
-}
-
-.italian {
-    background-color: Black;
-}
-
-h1 {
-    color: #41292C;
-    font-family: 'Covered By Your Grace', sans-serif;
-    font-size: 100px;
-    line-height: 76px;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    top: 20%;
-}
-
-h2 {
-    color: #E4BB97;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: #41292C;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-}
-
-h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: .2em;
-}
-
-h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: .2em;
-    font-weight: 300;
-}
-
-ul {
-    margin: 0 auto;
-    padding: 0;
-    width: 75%;
-}
-
-li {
-    border-bottom: 1px solid #E4BB97;
-    list-style: none;
-    margin: 100px 0px;
-    padding-bottom: 60px;
-}
-
-p {
-    color: #444444;
-    line-height: 32px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-a {
-    color: #214E34;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    font-weight: 900;
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-} */
-
-
-/* >>>> 2/8 */
-
-
-/* body {
-    padding: 0;
-    margin: 0;
-    background: #F7F7F7;
-    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-}
-
-.header {
-    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
-    height: 400px;
-    background-position: center center;
-}
-
-.roasting {
-    margin: 40px auto;
-    padding: 20px 30px 40px 30px;
-    background-color: #FFFFFFFF;
-    overflow: auto;
-    width: 75%;
-    border-radius: 4px;
-    align-self: center;
-}
-
-.roasting p {
-    color: #938E89;
-    text-align: center;
-    line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.spectrum div {
-    font: inherit;
-    padding: 0 20px;
-    color: #FFFFFF;
-    overflow: auto;
-    opacity: 0.9;
-}
-
-.spectrum p {
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.green {
-    background-color: DarkSeaGreen;
-}
-
-.light {
-    background-color: Sienna;
-}
-
-.city {
-    background-color: SaddleBrown;
-}
-
-.vienna {
-    background-color: Brown;
-}
-
-.italian {
-    background-color: Black;
-}
-
-h1 {
-    color: MidnightBlue;
-    background-color: Aqua;
-    font-family: 'Covered By Your Grace', sans-serif;
-    font-size: 100px;
-    line-height: 76px;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    top: 20%;
-}
-
-h2 {
-    color: #E4BB97;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: #41292C;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-}
-
-h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: .2em;
-}
-
-h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: .2em;
-    font-weight: 300;
-}
-
-ul {
-    margin: 0 auto;
-    padding: 0;
-    width: 75%;
-}
-
-li {
-    border-bottom: 1px solid #E4BB97;
-    list-style: none;
-    margin: 100px 0px;
-    padding-bottom: 60px;
-}
-
-p {
-    color: #444444;
-    line-height: 32px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-a {
-    color: #214E34;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    font-weight: 900;
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-} */
-
-
-/* >>>> 3/8 */
-
-
-/* body {
-    padding: 0;
-    margin: 0;
-    background: #F7F7F7;
-    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-}
-
-.header {
-    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
-    height: 400px;
-    background-position: center center;
-}
-
-.roasting {
-    margin: 40px auto;
-    padding: 20px 30px 40px 30px;
-    background-color: #FFFFFFFF;
-    overflow: auto;
-    width: 75%;
-    border-radius: 4px;
-    align-self: center;
-}
-
-.roasting p {
-    color: #938E89;
-    text-align: center;
-    line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.spectrum div {
-    font: inherit;
-    padding: 0 20px;
-    color: #FFFFFF;
-    overflow: auto;
-    opacity: 0.9;
-}
-
-.spectrum p {
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.green {
-    background-color: DarkSeaGreen;
-}
-
-.light {
-    background-color: Sienna;
-}
-
-.city {
-    background-color: SaddleBrown;
-}
-
-.vienna {
-    background-color: Brown;
-}
-
-.italian {
-    background-color: Black;
-}
-
-h1 {
-    color: MidnightBlue;
-    background-color: Aqua;
-    font-family: 'Covered By Your Grace', sans-serif;
-    font-size: 100px;
-    line-height: 76px;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    top: 20%;
-}
-
-h2 {
-    color: #E4BB97;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: #41292C;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-}
-
-h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: .2em;
-}
-
-h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: .2em;
-    font-weight: 300;
-}
-
-ul {
-    margin: 0 auto;
-    padding: 0;
-    width: 75%;
-}
-
-li {
-    border-bottom: 1px solid #E4BB97;
-    list-style: none;
-    margin: 100px 0px;
-    padding-bottom: 60px;
-}
-
-p {
-    color: #444444;
-    line-height: 32px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-a {
-    color: #214E34;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    font-weight: 900;
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-} */
-
-
-/* >>>> 4/8 */
-
-
-/* body {
-    padding: 0;
-    margin: 0;
-    background: #F7F7F7;
-    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-}
-
-.header {
-    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
-    height: 400px;
-    background-position: center center;
-}
-
-.roasting {
-    margin: 40px auto;
-    padding: 20px 30px 40px 30px;
-    background-color: #FFFFFFFF;
-    overflow: auto;
-    width: 75%;
-    border-radius: 4px;
-    align-self: center;
-}
-
-.roasting p {
-    color: #938E89;
-    text-align: center;
-    line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.spectrum div {
-    font: inherit;
-    padding: 0 20px;
-    color: #FFFFFF;
-    overflow: auto;
-    opacity: 0.9;
-}
-
-.spectrum p {
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.green {
-    background-color: rgb(143, 188, 143);
-}
-
-.light {
-    background-color: rgb(160, 82, 45)D;
-}
-
-.city {
-    background-color: rgb(139, 69, 19);
-}
-
-.vienna {
-    background-color: Brown;
-}
-
-.italian {
-    background-color: Black;
-}
-
-h1 {
-    color: MidnightBlue;
-    background-color: Aqua;
-    font-family: 'Covered By Your Grace', sans-serif;
-    font-size: 100px;
-    line-height: 76px;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    top: 20%;
-}
-
-h2 {
-    color: #E4BB97;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: #41292C;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-}
-
-h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: .2em;
-}
-
-h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: .2em;
-    font-weight: 300;
-}
-
-ul {
-    margin: 0 auto;
-    padding: 0;
-    width: 75%;
-}
-
-li {
-    border-bottom: 1px solid #E4BB97;
-    list-style: none;
-    margin: 100px 0px;
-    padding-bottom: 60px;
-}
-
-p {
-    color: #444444;
-    line-height: 32px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-a {
-    color: #214E34;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    font-weight: 900;
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-} */
-
-
-/* >>>> 5/8 */
-
-
-/* body {
-    padding: 0;
-    margin: 0;
-    background: #F7F7F7;
-    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-}
-
-.header {
-    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
-    height: 400px;
-    background-position: center center;
-}
-
-.roasting {
-    margin: 40px auto;
-    padding: 20px 30px 40px 30px;
-    background-color: #FFFFFFFF;
-    overflow: auto;
-    width: 75%;
-    border-radius: 4px;
-    align-self: center;
-}
-
-.roasting p {
-    color: #938E89;
-    text-align: center;
-    line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.spectrum div {
-    font: inherit;
-    padding: 0 20px;
-    color: #FFFFFF;
-    overflow: auto;
-    opacity: 0.9;
-}
-
-.spectrum p {
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.green {
-    background-color: #9EB599;
-}
-
-.light {
-    background-color: #683C2C;
-}
-
-.city {
-    background-color: #4C352D;
-}
-
-.vienna {
-    background-color: #352926;
-}
-
-.italian {
-    background-color: #141212;
-}
-
-h1 {
-    color: MidnightBlue;
-    background-color: Aqua;
-    font-family: 'Covered By Your Grace', sans-serif;
-    font-size: 100px;
-    line-height: 76px;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    top: 20%;
-}
-
-h2 {
-    color: #E4BB97;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: #41292C;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-}
-
-h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: .2em;
-}
-
-h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: .2em;
-    font-weight: 300;
-}
-
-ul {
-    margin: 0 auto;
-    padding: 0;
-    width: 75%;
-}
-
-li {
-    border-bottom: 1px solid #E4BB97;
-    list-style: none;
-    margin: 100px 0px;
-    padding-bottom: 60px;
-}
-
-p {
-    color: #444444;
-    line-height: 32px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-a {
-    color: #214E34;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    font-weight: 900;
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-} */
-
-
-/* >>>> 6/8 */
 
 body {
-    padding: 0;
-    margin: 0;
-    background: #F7F7F7;
-    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-}
-
-.header {
-    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
-    height: 400px;
-    background-position: center center;
-}
-
-.roasting {
-    margin: 40px auto;
-    padding: 20px 30px 40px 30px;
-    background-color: #FFFFFFFF;
-    overflow: auto;
-    width: 75%;
-    border-radius: 4px;
-    align-self: center;
-}
-
-.roasting p {
-    color: #938E89;
-    text-align: center;
-    line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.spectrum div {
-    font: inherit;
-    padding: 0 20px;
-    color: #FFFFFF;
-    overflow: auto;
-    opacity: 0.9;
-}
-
-.spectrum p {
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.green {
-    background-color: #9EB599;
-}
-
-.light {
-    background-color: #683C2C;
-}
-
-.city {
-    background-color: #4C352D;
-}
-
-.vienna {
-    background-color: #352926;
-}
-
-.italian {
-    background-color: #141212;
+    background-color: #F2F2F2;
 }
 
 h1 {
-    color: MidnightBlue;
-    background-color: Aqua;
-    font-family: 'Covered By Your Grace', sans-serif;
-    font-size: 100px;
-    line-height: 76px;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    top: 20%;
+    color: white;
+    font-size: 28px;
 }
 
 h2 {
-    color: #E4BB97;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: #41292C;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-}
-
-h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: .2em;
-}
-
-h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: .2em;
-    font-weight: 300;
-}
-
-ul {
-    margin: 0 auto;
-    padding: 0;
-    width: 75%;
-}
-
-li {
-    border-bottom: 1px solid #E4BB97;
-    list-style: none;
-    margin: 100px 0px;
-    padding-bottom: 60px;
-}
-
-p {
-    color: #444444;
-    line-height: 32px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
+    line-height: 2.5;
 }
 
 a {
-    color: #214E34;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    font-weight: 900;
-    text-align: left;
-    text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 2px;
+}
+
+p {
+    margin: 16px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#serif,
+
+/* Offset linked sections to account for header. */
+
+#sans,
+#mono {
+    padding-top: 77px;
+    margin-top: -77px;
 }
 
 
-/* >>>> 6/8 & 7/8 */
+/* Header */
+
+.header {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.25;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header li {
+    display: inline-block;
+}
+
+.header a {
+    display: block;
+    color: #4A4A4A;
+    padding: 30px 20px;
+}
+
+a.home {
+    color: #4D00FF;
+}
 
 
-/* HSL */
+/* Banner Section */
+
+.banner {
+    background-color: #4D00FF;
+    padding: 100px 0;
+    margin-top: 77px;
+    text-align: center;
+}
+
+.banner p {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #ffffff;
+}
 
 
-/* color: hsl(120, 60%, 70%); */
+/* Editorial Sections */
+
+.editorial {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    color: #4C4C4C;
+}
 
 
-/* color: hsl(HUE, Saturation, Lightness)  */
+/* Font Card Sections */
+
+.font-card {
+    background-color: #ffffff;
+    margin: 50px 0;
+    padding: 20px 50px;
+}
+
+.font-card .creator {
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+.sample {
+    display: inline-block;
+    padding: 0 20px;
+    margin: 20px;
+}
+
+.sample h2 {
+    line-height: 1.5;
+}
+
+.sample .text {
+    color: #4D00FF;
+    font-size: 100px;
+}
 
 
-/* >>>> 7/8 */
+/* Add styles for the Garamond font here */
 
 
-/* Opacity and Apha */
+/* Add styles for the Helvetica font here */
 
 
-/* color: hsla(120, 60%, 70%, 0.1); */
+/* Add styles for the Space Mono font here */
+
+.bold {
+    font-weight: 900;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.italic {
+    font-weight: normal;
+    font-style: italic;
+}
 
 
-/* color: hsla(HUE, Saturation, Lightness, Alpha)  */
+/* Media Queries */
 
-
-/* color: rgba(234, 45, 98, 0.33); */
-
-
-/* >>>> 8/8 */
-
-
-/* CSS COLOR
-Color Review
-We've completed our extensive tour of the colors in CSS! Let's review the key information we've learned.
-
-There are four ways to represent color in CSS:
-
-- Named colors — there are 147 named colors, which you can review here.
-
-- Hexadecimal or hex colors
-
-    - Hexadecimal is a number system with has sixteen digits, 0 to 9 followed by "A" to "F".
-    - Hex values always begin with # and specify values of red, blue and green using hexademical numbers such as #23F41A.
-
-- RGB
-
-    - RGB colors use the rgb() syntax with one value for red, one value for blue and one value for green.
-    - RGB values range from 0 to 255 and look like this: rgb(7, 210, 50).
-
-- HSL
-
-    - HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness (how light or dark a color is).
-    - Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: hsl(200, 20%, 50%).
-
-- You can add opacity to color in RGB and HSL by adding a fourth value, a, which is represented as a percentage. */
+@media only screen and (max-width: 535px) {
+    .header {
+        font-size: 14px;
+    }
+    .header a {
+        padding: 30px 20px;
+    }
+    a.home {
+        display: none;
+    }
+}
