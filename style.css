@@ -1629,7 +1629,8 @@ a.home {
 
 /* >>>> 15/19 */
 
-html {
+
+/* html {
     font-size: 16px;
     font-family: "Arial", sans-serif;
 }
@@ -1771,6 +1772,10 @@ a.home {
     font-style: italic;
 }
 
+.space .sample .text {
+    font-family: "Space Mono", monospace;
+}
+
 @media only screen and (max-width: 535px) {
     .header {
         font-size: 14px;
@@ -1781,4 +1786,7 @@ a.home {
     a.home {
         display: none;
     }
-}
+} */
+
+
+/* >>>> 16/19 */
