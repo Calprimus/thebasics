@@ -1,3 +1,37 @@
+/* >>>> 2/12  Example*/
+
+
+/* .container {
+    display: grid;
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    grid-template-areas: "head head" "nav nav" "info services" "footer footer";
+    grid-template-rows: 300px 120px 800px 120px;
+    grid-template-columns: 1fr 3fr;
+}
+
+header {
+    grid-area: head;
+}
+
+nav {
+    grid-area: nav;
+}
+
+.info {
+    grid-area: info;
+}
+
+.services {
+    grid-area: services;
+}
+
+footer {
+    grid-area: footer;
+} */
+
+
 /* >>>> 2/12 */
 
 .container {
@@ -6,6 +40,7 @@
     position: relative;
     margin: auto;
     grid-gap: 10px;
+    grid-template-areas: "header header" "nav nav" "left right" "footer footer";
 }
 
 h1,
@@ -15,21 +50,29 @@ h2 {
 }
 
 header {
+    grid-area: header;
     background-color: dodgerblue;
 }
 
 nav {
+    grid-area: nav;
     background-color: beige;
 }
 
 .left {
+    grid-area: left;
     background-color: dodgerblue;
 }
 
 .right {
+    grid-area: right;
     background-color: beige;
 }
 
 footer {
+    grid-area: footer;
     background-color: dodgerblue;
 }
+
+
+/* >>>> 3/12 */
